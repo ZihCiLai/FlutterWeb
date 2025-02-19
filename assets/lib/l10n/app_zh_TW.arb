@@ -1,0 +1,207 @@
+{
+  "@@locale": "zh_TW",
+  "welcomeMessage": "歡迎使用 {appName}",
+  "@welcomeMessage": {
+    "description": "使用者登入後的歡迎訊息",
+    "type": "text",
+    "placeholders": {
+      "appName": {
+        "type": "String",
+        "example": "JoyBon"
+      }
+    }
+  },
+  "quantity": "數量：{number}",
+  "@quantity": {
+    "description": "數量：",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "satisfaction": "滿意度{number}",
+  "@satisfaction": {
+    "description": "滿意度",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "productReviews": "商品評價",
+  "@productReviews": {
+    "description": "商品評價"
+  },
+  "writeAReview": "撰寫意見",
+  "@writeAReview": {
+    "description": "撰寫意見"
+  },
+  "pleaseEnterYourComment": "請輸入你的意見",
+  "@pleaseEnterYourComment": {
+    "description": "請輸入你的意見"
+  },
+  "unboxingPhotos": "開箱照",
+  "@unboxingPhotos": {
+    "description": "開箱照"
+  },
+  "confirmSent": "確認發送",
+  "@confirmSent": {
+    "description": "確認發送"
+  },
+  
+  "selectImageSource": "選擇圖片來源",
+  "selectImageSourceDescription": "請選擇要從相簿中取得圖片，還是使用相機拍照。",
+  "gallery": "相簿",
+  "camera": "拍照",
+  "evaluationCompleted": "評價完成",
+  
+  "deleted": "刪除成功",
+  "@deleted": {
+    "description": "刪除成功"
+  },
+  "toDelete": "進行刪除",
+  "@toDelete": {
+    "description": "進行刪除"
+  },
+  "toDeleteAsk": "您確定要刪除此地址嗎？",
+  "@toDeleteAsk": {
+    "description": "確定進行刪除"
+  },
+  "deliveyAddress": "收件地址",
+  "@deliveyAddress": {
+    "description": "收件地址"
+  },
+  "add": "添加",
+  "@add": {
+    "description": "添加"
+  },
+  "delete": "刪除",
+  "@delete": {
+    "description": "刪除"
+  },
+  "editA": "編輯",
+  "@editA": {
+    "description": "編輯"
+  },
+  "coupon": "優惠券",
+  "@coupon": {
+    "description": "優惠券"
+  },
+  "enterCouponCode": "輸入優惠碼",
+  "@enterCouponCode": {
+    "description": "輸入優惠碼"
+  },
+  "pleaseEnterCouponCode": "請輸入優惠碼",
+  "@pleaseEnterCouponCode": {
+    "description": "請輸入優惠碼"
+  },
+  "confirm": "確認",
+  "@confirm": {
+    "description": "確認"
+  },
+  "cancel": "取消",
+  "@cancel": {
+    "description": "取消"
+  },
+  "usageRules": "使用規則",
+  "@usageRules": {
+    "description": "使用規則"
+  },
+  "availableTime": "使用時間：{start}~{end}",
+  "@availableTime": {
+    "description": "點擊收藏的日期",
+    "placeholders": {
+      "start": {
+        "type": "String",
+        "example": "2024-12-12"
+      },
+      "end": {
+        "type": "String",
+        "example": "2025-01-01"
+      }
+    }
+  },
+  "couponFullRule": "滿減券使用規則",
+  "@couponFullRule": {
+    "description": "滿減券使用規則"
+  },
+  "couponFullContent": "滿減券：必須達到訂單滿足要求的商品金額（不含稅費和運費）時才能使用。\n例：一張滿200減50的券，購買200元的商品就可以使用該券減少50元，但是購買後訂單總金額不滿200元是不可以使用該券。",
+  "@couponFullContent": {
+    "description": "滿減券使用說明..."
+  },
+  "couponCashRule": "現金券使用規則",
+  "@couponCashRule": {
+    "description": "現金券使用規則"
+  },
+  "couponCashContent": "現金券：可用於減免訂單總金額，但現金券面額低於訂單總金額，則無法使用。\n例：現金券面額25元，訂單金額超過25元即可減免，低於或等於25元則無法減免。",
+  "@couponCashContent": {
+    "description": "現金券使用說明..."
+  },
+  "couponPostageRule": "抵郵券使用規則",
+  "@couponPostageRule": {
+    "description": "抵郵券使用規則"
+  },
+  "couponPostageContent": "抵郵券：可用於減免運費(郵費)，但運費低於抵郵券，則無法使用。\n例：抵郵費面額80元，運費超過80元即可折抵運費，低於或等於80元則無法折抵運費。",
+  "@couponPostageContent": {
+    "description": "抵郵券使用說明..."
+  },
+  "couponGiftRule": "伴手禮折抵券使用規則",
+  "@couponGiftRule": {
+    "description": "伴手禮折抵券使用規則"
+  },
+  "couponGiftContent": "伴手禮折抵券：可用於減免訂單總金額,但非伴手禮之商品則無法使用。若伴手禮折抵券之面額低於訂單總金額，則無法使用。",
+  "@couponGiftContent": {
+    "description": "伴手禮折抵券使用說明..."
+  },
+  "couponBeautyRule": "美妝折抵券使用規則",
+  "@couponBeautyRule": {
+    "description": "美妝折抵券使用規則"
+  },
+  "couponBeautyContent": "美妝折抵券：可用於減免訂單總金額,但非美妝之商品(或部份美妝商品)無法使用。若美妝折抵券之面額低於訂單總金額，則無法使用。",
+  "@couponBeautyContent": {
+    "description": "美妝折抵券使用說明..."
+  },
+  "myFavorite": "我的最爱",
+  "@myFavorite": {
+    "description": "我的最爱"
+  },
+  "loadingMessage": "處理中請稍候..",
+  "@loadingMessage": {
+    "description": "處理中請稍候.."
+  },
+  "favoriteItems": "收藏商品",
+  "@favoriteItems": {
+    "description": "收藏商品"
+  },
+  "favoriteShops": "關注店舖",
+  "@favoriteShops": {
+    "description": "關注店舖"
+  },
+  "collectionDate": "收藏日期:{date}",
+  "@collectionDate": {
+    "description": "點擊收藏的日期",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024"
+      }
+    }
+  },
+  "privacyPolicy": "隱私權政策",
+  "@privacyPolicy": {},
+  "privacyPolicyLocal": "由本機端顯示",
+  "@privacyPolicyLocal": {},
+  "privacyPolicyNetwork": "從網路端顯示",
+  "@privacyPolicyNetwork": {},
+  "copyRight": "© 2024 自游邦 版權所有",
+  "@copyRight": {},
+  "aboutJoyBon": "關於自游邦",
+  "@aboutJoyBon": {},
+  "joyBonDescriptions": "\t自游邦，是為用戶提供境外旅遊的在地服務的移動應用平台。通過移動聯網技術，幫助用戶更好遊玩，推薦旅遊目的地最本土、最特色的購物商店，分享旅遊目的地最完全最優惠的購物信息，讓用戶享受最便捷的境外旅遊購物、商品折扣、物流配送等服務。\n\t讓愛旅遊、愛購物的用戶不再為購物行程、商品價格、物流運輸煩惱，為旅行中的用戶提供省心、省時省力的旅行幫助，讓自由行更自由。",
+  "@joyBonDescriptions": {
+    "description": "自游邦，是為用戶提供境外旅遊的在地服務..."
+  }
+}

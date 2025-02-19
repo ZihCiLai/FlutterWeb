@@ -1,0 +1,199 @@
+{
+  "@@locale": "vi",
+  "welcomeMessage": "歡迎使用 {appName}",
+  "@welcomeMessage": {
+    "description": "使用者登入後的歡迎訊息",
+    "type": "text",
+    "placeholders": {
+      "appName": {
+        "type": "String",
+        "example": "MyApp"
+      }
+    }
+  },
+  "quantity": "Số lượng：{number}",
+  "@quantity": {
+    "description": "數量：",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "satisfaction": "điểm{number}",
+  "@satisfaction": {
+    "description": "滿意度",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "productReviews": "Đánh giá sản phẩm",
+ "@productReviews": {
+ "description": "Đánh giá sản phẩm"
+ },
+ "writeAReview": "Viết bài đánh giá",
+ "@writeAReview": {
+ "description": "Viết một ý kiến"
+ },
+ "pleaseEnterYourComment": "Vui lòng nhập bình luận của bạn",
+ "@pleaseEnterYourComment": {
+ "description": "Vui lòng nhập ý kiến ​​của bạn"
+ },
+ "unboxingPhotos": "mở hộp ảnh",
+ "@unboxingPhotos": {
+ "description": "Ảnh mở hộp"
+ },
+ "confirmSent": "Xác nhận đã gửi",
+ "@confirmSent": {
+ "description": "Xác nhận để gửi"
+ },
+ 
+  "selectImageSource": "Chọn nguồn ảnh",
+  "selectImageSourceDescription": "Vui lòng chọn để chọn ảnh từ thư viện hoặc chụp ảnh bằng máy ảnh.",
+  "gallery": "Thư viện",
+  "camera": "Máy ảnh",
+  "evaluationCompleted": "Hoàn thành",
+
+  "deleted": "Đã xóa thành công",
+  "@deleted": {
+    "description": "删除成功"
+  },
+  "toDelete": "Để xóa",
+  "@toDelete": {
+    "description": "進行刪除"
+  },
+  "toDeleteAsk": "Bạn có chắc chắn muốn xóa địa chỉ này không?",
+  "@toDeleteAsk": {
+    "description": "確定進行刪除"
+  },
+  "deliveyAddress": "Địa chỉ giao hàng",
+  "@deliveyAddress": {
+    "description": "收件地址"
+  },
+  "add": "Thêm vào",
+  "@add": {
+    "description": "添加"
+  },
+  "delete": "xóa bỏ",
+  "@delete": {
+    "description": "刪除"
+  },
+  "editA": "biên tập",
+  "@editA": {
+    "description": "編輯"
+  },
+  "coupon": "Phiếu giảm giá",
+  "@coupon": {
+    "description": "優惠券"
+  },
+  "enterCouponCode": "Nhập mã giảm giá",
+  "@enterCouponCode": {
+    "description": "輸入優惠碼"
+  },
+  "pleaseEnterCouponCode": "Vui lòng nhập mã giảm giá",
+  "@pleaseEnterCouponCode": {
+    "description": "請輸入優惠碼"
+  },
+  "confirm": "Xác nhận",
+  "@confirm": {
+    "description": "確認"
+  },
+  "cancel": "Hủy bỏ",
+  "@cancel": {
+    "description": "取消"
+  },
+  "usageRules": "Quy tắc sử dụng",
+  "@usageRules": {
+    "description": "使用規則"
+  },
+  "availableTime": "Thời gian sử dụng: {start}~{end}",
+  "@availableTime": {
+    "description": "點擊收藏的日期",
+    "placeholders": {
+      "start": {
+        "type": "String",
+        "example": "2024-12-12"
+      },
+      "end": {
+        "type": "String",
+        "example": "2025-01-01"
+      }
+    }
+  },
+  "couponFullRule": "Quy tắc sử dụng phiếu giảm giá",
+  "@couponFullRule": {
+    "description": "滿減券使用規則"
+  },
+  "couponFullContent": "Phiếu giảm giá: Chỉ có thể sử dụng khi giá trị đơn hàng đáp ứng yêu cầu (không bao gồm thuế và phí vận chuyển).\nVí dụ: Một phiếu giảm 50 cho đơn hàng từ 200, có thể sử dụng phiếu để giảm 50 từ đơn hàng 200, nhưng không thể sử dụng nếu tổng giá trị đơn hàng dưới 200 sau khi áp dụng phiếu.",
+  "@couponFullContent": {
+    "description": "滿減券使用說明..."
+  },
+  "couponCashRule": "Quy tắc sử dụng phiếu tiền mặt",
+  "@couponCashRule": {
+    "description": "現金券使用規則"
+  },
+  "couponCashContent": "Phiếu tiền mặt: Có thể được sử dụng để giảm tổng giá trị đơn hàng. Nếu mệnh giá của phiếu thấp hơn tổng giá trị đơn hàng, không thể sử dụng.\nVí dụ: Phiếu tiền mặt trị giá 25 có thể sử dụng nếu đơn hàng trên 25, nhưng không thể sử dụng nếu đơn hàng bằng hoặc nhỏ hơn 25.",
+  "@couponCashContent": {
+    "description": "現金券使用說明..."
+  },
+  "couponPostageRule": "Quy tắc sử dụng phiếu miễn phí vận chuyển",
+  "@couponPostageRule": {
+    "description": "抵郵券使用規則"
+  },
+  "couponPostageContent": "Phiếu miễn phí vận chuyển: Có thể dùng để giảm phí vận chuyển. Nếu phí vận chuyển thấp hơn giá trị phiếu, không thể sử dụng.\nVí dụ: Phiếu vận chuyển trị giá 80, nếu phí vận chuyển vượt quá 80 sẽ được giảm, nếu thấp hơn hoặc bằng 80 sẽ không thể sử dụng.",
+  "@couponPostageContent": {
+    "description": "抵郵券使用說明..."
+  },
+  "couponGiftRule": "Quy tắc sử dụng phiếu giảm giá quà tặng",
+  "@couponGiftRule": {
+    "description": "伴手禮折抵券使用規則"
+  },
+  "couponGiftContent": "Phiếu giảm giá quà tặng: Chỉ sử dụng được cho các sản phẩm quà tặng. Nếu mệnh giá của phiếu thấp hơn tổng giá trị đơn hàng, không thể sử dụng.",
+  "@couponGiftContent": {
+    "description": "伴手禮折抵券使用說明..."
+  },
+  "couponBeautyRule": "Quy tắc sử dụng phiếu giảm giá mỹ phẩm",
+  "@couponBeautyRule": {
+    "description": "美妝折抵券使用規則"
+  },
+  "couponBeautyContent": "Phiếu giảm giá mỹ phẩm: Chỉ sử dụng được cho các sản phẩm mỹ phẩm. Nếu mệnh giá của phiếu thấp hơn tổng giá trị đơn hàng, không thể sử dụng.",
+  "@couponBeautyContent": {
+    "description": "美妝折抵券使用說明..."
+  },
+  "myFavorite": "yêu thích",
+  "loadingMessage": "Đang xử lý..",
+  "@loadingMessage": {
+    "description": "处理中请稍候.."
+  },
+  "favoriteItems": "Mục yêu thích",
+  "@favoriteItems": {
+    "description": "收藏商品"
+  },
+  "favoriteShops": "Theo dõi cửa hàng",
+  "@favoriteShops": {
+    "description": "關注店舖"
+  },
+  "collectionDate": "Ngày thu thập:{date}",
+  "@collectionDate": {
+    "description": "點擊收藏的日期",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024"
+      }
+    }
+  },
+  "privacyPolicy": "Chính sách quyền riêng tư",
+  "privacyPolicyLocal": "Được hiển thị bởi máy cục bộ",
+  "privacyPolicyNetwork": "Hiển thị từ phía mạng",
+  "copyRight": "© 2024 JoyBon All rights reserved.",
+  "aboutJoyBon": "Về tự do băng",
+  "joyBonDescriptions": "\tTự do băng, là nền tảng ứng dụng di động cung cấp dịch vụ địa phương cho người dùng trong du lịch nước ngoài. Thông qua công nghệ mạng di động, giúp người dùng chơi tốt hơn, giới thiệu các cửa hàng mua sắm địa phương và đặc sắc nhất tại điểm đến du lịch, chia sẻ thông tin mua sắm đầy đủ và ưu đãi nhất tại điểm đến du lịch, để người dùng tận hưởng dịch vụ mua sắm du lịch nước ngoài, giảm giá sản phẩm, giao hàng thuận tiện nhất.\n\tGiúp người yêu du lịch, yêu mua sắm không còn lo lắng về lịch trình mua sắm, giá cả sản phẩm, vận chuyển hàng hóa, cung cấp sự hỗ trợ du lịch tiết kiệm thời gian, công sức cho người dùng trong chuyến đi, làm cho chuyến đi tự do hơn.",
+  "@joyBonDescriptions": {
+    "description": "自游邦，是為用戶提供境外旅遊的在地服務..."
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "@@locale": "en",
+  "welcomeMessage": "Welcome {appName}",
+  "@welcomeMessage": {
+    "description": "使用者登入後的歡迎訊息",
+    "type": "text",
+    "placeholders": {
+      "appName": {
+        "type": "String",
+        "example": "MyApp"
+      }
+    }
+  },
+  "quantity": "Qty：{number}",
+  "@quantity": {
+    "description": "Qty：",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "satisfaction": "Score{number}",
+  "@satisfaction": {
+    "description": "滿意度",
+    "placeholders": {
+      "number": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "productReviews": "Product Reviews",
+ "@productReviews": {
+ "description": "商品評價"
+ },
+ "writeAReview": "Write a review",
+ "@writeAReview": {
+ "description": "撰寫意見"
+ },
+ "pleaseEnterYourComment": "Please enter your comment",
+ "@pleaseEnterYourComment": {
+ "description": "請輸入你的意見"
+ },
+ "unboxingPhotos": "Unboxing Photos",
+ "@unboxingPhotos": {
+ "description": "開箱照"
+ },
+ "confirmSent": "Confirm Sent",
+ "@confirmSent": {
+ "description": "確認發送"
+ },
+ 
+  "selectImageSource": "Select Image Source",
+  "selectImageSourceDescription": "Please choose to pick an image from the gallery or take a photo with the camera.",
+  "gallery": "Gallery",
+  "camera": "Camera",
+  "evaluationCompleted": "Completed",
+
+  "deleted": "Deleted successfully",
+  "@deleted": {
+    "description": "删除成功"
+  },
+  "toDelete": "To Delete",
+  "@toDelete": {
+    "description": "進行刪除"
+  },
+  "toDeleteAsk": "Are you sure you want to delete this address?",
+  "@toDeleteAsk": {
+    "description": "確定進行刪除"
+  },
+  "deliveyAddress": "Delivery Address",
+  "@deliveyAddress": {
+    "description": "收件地址"
+  },
+  "add": "Add",
+  "@add": {
+    "description": "添加"
+  },
+  "delete": "Delete",
+  "@delete": {
+    "description": "刪除"
+  },
+  "editA": "Edit",
+  "@editA": {
+    "description": "編輯"
+  },
+  "coupon": "Coupon",
+  "@coupon": {
+    "description": "優惠券"
+  },
+  "enterCouponCode": "Enter Coupon Code",
+  "@enterCouponCode": {
+    "description": "輸入優惠碼"
+  },
+  "pleaseEnterCouponCode": "Please enter coupon code",
+  "@pleaseEnterCouponCode": {
+    "description": "請輸入優惠碼"
+  },
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "確認"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "取消"
+  },
+  "usageRules": "Usage Rules",
+  "@usageRules": {
+    "description": "使用規則"
+  },
+  "availableTime": "Available Time: {start}~{end}",
+  "@availableTime": {
+    "description": "點擊收藏的日期",
+    "placeholders": {
+      "start": {
+        "type": "String",
+        "example": "2024-12-12"
+      },
+      "end": {
+        "type": "String",
+        "example": "2025-01-01"
+      }
+    }
+  },
+  "couponFullRule": "Full reduction coupon usage rules",
+  "@couponFullRule": {
+    "description": "滿減券使用規則"
+  },
+  "couponFullContent": "Full reduction coupon: Can only be used when the order meets the required amount (excluding taxes and shipping fees).\nExample: A 50-off coupon for orders over 200 can be used to deduct 50 from a 200 order, but cannot be used if the total order amount falls below 200 after applying the coupon.",
+  "@couponFullContent": {
+    "description": "滿減券使用說明..."
+  },
+  "couponCashRule": "Cash coupon usage rules",
+  "@couponCashRule": {
+    "description": "現金券使用規則"
+  },
+  "couponCashContent": "Cash coupon: Can be used to reduce the total order amount. If the value of the coupon is less than the total order amount, it cannot be used.\nExample: A cash coupon worth 25 can be used if the order exceeds 25, but cannot be used if the order is 25 or less.",
+  "@couponCashContent": {
+    "description": "現金券使用說明..."
+  },
+  "couponPostageRule": "Postage coupon usage rules",
+  "@couponPostageRule": {
+    "description": "抵郵券使用規則"
+  },
+  "couponPostageContent": "Postage coupon: Can be used to offset shipping fees. If the shipping fee is less than the value of the coupon, it cannot be used.\nExample: A postage coupon worth 80 can offset shipping fees exceeding 80, but cannot offset shipping fees of 80 or less.",
+  "@couponPostageContent": {
+    "description": "抵郵券使用說明..."
+  },
+  "couponGiftRule": "Gift coupon usage rules",
+  "@couponGiftRule": {
+    "description": "伴手禮折抵券使用規則"
+  },
+  "couponGiftContent": "Gift coupon: Can be used to reduce the total order amount, but cannot be used for non-gift products. If the value of the coupon is less than the total order amount, it cannot be used.",
+  "@couponGiftContent": {
+    "description": "伴手禮折抵券使用說明..."
+  },
+  "couponBeautyRule": "Beauty coupon usage rules",
+  "@couponBeautyRule": {
+    "description": "美妝折抵券使用規則"
+  },
+  "couponBeautyContent": "Beauty coupon: Can be used to reduce the total order amount, but cannot be used for non-beauty products (or certain beauty products). If the value of the coupon is less than the total order amount, it cannot be used.",
+  "@couponBeautyContent": {
+    "description": "美妝折抵券使用說明..."
+  },
+  "myFavorite": "My Favorite",
+  "@myFavorite":{"description": "我的最爱"},
+  "loadingMessage": "Loading..",
+ "@loadingMessage":{"description": "处理中请稍候.."},
+  "favoriteItems": "Favorite Items",
+  "@favoriteItems": {
+    "description": "收藏商品"
+  },
+  "favoriteShops": "Follow shops",
+  "@favoriteShops": {
+    "description": "關注店舖"
+  },
+  "collectionDate": "Collection:{date}",
+  "@collectionDate": {
+    "description": "點擊收藏的日期",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024"
+      }
+    }
+  },
+  "privacyPolicy": "Privacy Policy",
+  "privacyPolicyLocal": "Displayed by the local machine",
+  "privacyPolicyNetwork": "Display from the network",
+  "copyRight": "© 2024 JoyBon All rights reserved.",
+  "aboutJoyBon": "About JoyBon",
+  "joyBonDescriptions": "\tJOYBON is a mobile application platform that provides users with local services for overseas travel. Through mobile networking technology, it helps users to play better, recommends the most local and most unique shopping stores in travel destinations, and shares the most complete and comprehensive travel destinations. Preferential shopping information allows users to enjoy the most convenient services for overseas travel shopping, product discounts, logistics and delivery. \n\t Let travel lovers and shopping lovers no longer worry about shopping itineraries, product prices, logistics and transportation, and provide travel users with peace of mind, time-saving, and labor-saving travel assistance to make travel more free. ",
+  "@joyBonDescriptions": {
+    "description": "自游邦，是為用戶提供境外旅遊的在地服務..."
+  }
+}
